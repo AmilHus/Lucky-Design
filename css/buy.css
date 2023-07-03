@@ -1,0 +1,259 @@
+.swipers {
+    max-width: 1900px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .food-products_item{
+    margin: unset;
+  }
+
+
+.slider-item img{
+    max-width: 100px;
+}
+
+.content{
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.recommend_list{
+    width: 100%;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 40px;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+margin: 10px;
+text-align: center;
+}
+
+.product-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.product-table{
+    max-width: 1320px;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    max-width: 860px;
+    width: 100%;
+}
+
+tr{
+    border-spacing: separate;
+    border: 1px solid #000;
+}
+
+th{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+td{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.remove button{
+    background-color: #c82333;
+    padding: 15px;
+    border: none;
+    position: relative;
+    margin: 10px;
+}
+
+.remove button::after{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 15px;
+    height: 3px;
+    transform: rotate(-45deg);
+    right: 7px;
+    
+}
+
+.remove button::before{
+    content: '' ;
+    position: absolute;
+    background: #fff;
+    width: 15px;
+    height: 3px;
+    transform: rotate(45deg);
+    left: 8px;
+
+    
+}
+
+.buy-btn{
+    height: 75px !important;
+}
+
+.product-quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#quantity{
+    max-width: 55px;
+    -webkit-appearance: none;
+    margin: 0;
+    color: #000;
+    border: 1px solid #FC8410;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.decrement{
+    padding: 10px;
+    background-color:#FC8410;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.increment{
+    padding: 10px;
+    background-color:#FC8410;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.product-table{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
+    max-height: 200px;
+    max-width: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.total h3{
+    font-family: "Montserrat", sans-serif;
+    margin: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.total hr{
+    margin: 10px;
+}
+
+.total p{
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px;
+    width: 20%;
+}
+
+.t-cost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total a{
+    padding: 10px 30px;
+}
+
+.total button{
+    padding: 10px 0px;
+    margin: 10px;
+    background-color: #FC8410;
+    color: #fff;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    width: 200px;
+    align-self: center;
+}
+
+@media screen and (max-width:1000px) {
+    .product-table{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    tbody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border:none;
+        box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
+        max-width: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    thead{
+        display: none;
+    }
+
+    .total {
+        margin-left: 0;
+    }
+}

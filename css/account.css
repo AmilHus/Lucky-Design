@@ -1,0 +1,195 @@
+h2{
+    font-size: 32px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.links{
+    display: flex;
+}
+
+.links p,a{
+    padding: 5px;
+}
+
+.main a{
+    color:#000;
+}
+
+.form{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.form button{
+    width: 160px;
+    height: 50px;
+    background-color: #106853;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-self: start;
+    margin-left: 20px;
+}
+
+.form a{
+    text-decoration: underline !important;
+}
+
+.inputs{
+    max-width: 100%;  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label{
+    color: #000;
+    margin-left: 10px;
+}
+
+.main-title{
+    display: flex;
+    align-self: start;
+    margin-left: 20px;
+}
+
+.main-title h2{
+    font-weight: normal;
+}
+
+
+.form input{
+    color:#000;
+    border: 1px solid #1f1f1f;
+    width: 100%;
+    margin: 10px;
+    max-width: 650px;
+}
+
+.form input::placeholder{
+    color: #000;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    background: url(/img/images/pattern/leaf-title.png) top center no-repeat;
+
+}
+
+.main img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.office-hr.second{
+    background: #106853;
+    margin: 10px;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+.main ul{
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    line-height: 20px;
+    margin: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.input-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 650px;
+    width: 100%;
+}
+
+.container.second{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-user{
+    color:#106853;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1370px) {
+    .main-title{
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    label{
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .form button{
+        margin: 10px;
+    }
+
+    .form input{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .main-title h2{
+        font-size: 22px;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .form{
+        max-width: 500px;
+        align-items: center;
+    }
+
+    .inputs{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container.second{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2{ 
+        font-size: 24px;
+    }
+
+    .main p{
+        font-size: 14px;
+    }
+}

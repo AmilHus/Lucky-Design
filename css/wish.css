@@ -1,0 +1,41 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+}
+
+.wish-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    max-width: 1900px;
+}
+
+.new-icon{
+        border-radius: 4px;
+        background: #FC8410 !important;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        height: 35px;
+        width: 111px !important;
+        justify-content: center;
+        margin: 10px;
+}

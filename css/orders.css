@@ -1,0 +1,122 @@
+.links a{
+    color: #000;
+    font-family: 'Montserrat',serif;
+}
+
+.links{
+    display: flex;
+    margin: 20px;
+}
+
+.links p{
+    font-family: 'Montserrat',serif;
+    margin-left: 10px;
+}
+
+th{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.product-deliver div{
+    background-color: #106853;
+    border-radius: 20px;
+    height: 47px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.product-reorder button{
+    padding: 20px;
+    border: solid aliceblue 4px;
+    background: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+table{
+    max-width: 100%;
+}
+
+.product-table{
+    max-width: 100%;
+    display: none;
+}
+
+.category-filter-block, .order-filter-block {
+    background: var(--primary-bg-color);
+    box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
+    padding: 20px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 21px;
+    width: 100%;
+}
+
+.order-filter-block  span{
+    color:#000;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.order-filter-block form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+
+.order-filter-block select{
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.order-tabs{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.order-tabs button{
+    width: 100%;
+}
+
+.order-tabs button{
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+.active{
+    display: flex;
+}
+
+.order-tabs .active{
+    background: #106853;
+    color: #fff;
+
+}
+
+.second th{
+    background-color: #fc8410;
+    color: #fff;
+}
+
+@media screen and (max-width:700px) {
+    .order-filter-block form{
+        justify-content: start;
+    }
+
+
+    .category-filter-block, .order-filter-block{
+        max-width: 95%;
+    }
+}
